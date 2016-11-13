@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size" />
+    <TextView
+        android:id="@+id/tvTime"
+        android:text="10 m"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/time_size"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/big"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_toLeftOf="@id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvNameFrom"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Name from"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvActivity"
+            android:layout_toRightOf="@id/tvNameFrom"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/small"
+            android:text="like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvNameTo"
+            android:layout_toRightOf="@id/tvActivity"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/small"
+            android:text="Name to"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvWho"
+            android:layout_toRightOf="@id/tvNameTo"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/small"
+            android:text="photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

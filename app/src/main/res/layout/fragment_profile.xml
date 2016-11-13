@@ -1,0 +1,200 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lesgirls.fragments.settings.ProfileFragment">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/big"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/profile_name"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivProfileName"
+                android:text="@string/profile_name"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlAge"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/age"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivAge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivAge"
+                android:text="@string/age"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlIAmA"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/i_am"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivIAmA"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivIAmA"
+                android:text="@string/i_am_a"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvIAmA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlLookingFor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/looking_for"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivLookingFor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivLookingFor"
+                android:text="@string/looking_for"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvLookingFor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/password_settings"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivPassword"
+                android:text="@string/password"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlViewMyProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/viewmyprofile"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivViewMyProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivVideo"
+                android:text="@string/view_my_profile"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvViewViewMyProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlShareMyProfile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/sharemyprofile"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivShareMyProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivShareMyProfile"
+                android:text="@string/share_my_profile"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvShareMyProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/rlDesctiption"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/profile_item_height">
+
+            <ImageView
+                android:src="@drawable/description"
+                android:layout_centerVertical="true"
+                android:id="@+id/ivDesctiption"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/big"
+                android:layout_toRightOf="@id/ivDesctiption"
+                android:text="@string/description"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

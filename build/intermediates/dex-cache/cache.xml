@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.2.1_939ec9fd439a83a03a3302faf18788aeb5f6c1fc/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="bbd51be332bace144b3d16501ec0af379c3c8750">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.2.1_1bc09ed508ac31b0b64d91d01f984c67734c3b4e/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_04ae5b7aed1829173c7886c6e0d349532c6aa773/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_ec6a6205deea3937a8aa7d739ece165becf32ac1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_64ad3a78fb1aace126465b37957789cde899a926/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_b4c0a300494703480026e9f3f63826dad3254601/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.1_c8f71ae342f0545be83029f2918880ef68cd07d9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_21c918b91c6c37629ed9e17633639b894e3f49dd/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_0c53a0c774d43c1d5e37e12373561c74fe361c3e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_3d3555d5654fa158693e7a27653b1ace3d951ff8/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c7d27d39e1735dbd55a5a3fd6b4f742b69bc77a7">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ab7fbfdab9589953e5e267d536de51ac206ef7e6/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_0ad91486e633c654d30698f72ec155b49650638a/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3c8fcebabb73df25937704f5566bf6c388ea941d">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.2.0_d9c568096928577f683672fa50b41faf958db1f0/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_913a814eeed0df96a63e59c1681a41e4e9719903/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.2.1_451d2ee16f69e596944a9d542b5269992814c57b/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-23.4.0_49e745d627518756c4a246eb4f2f3b8510105671/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a4c0093a3c06771dd224344e085b46771de32329">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8511c87414b212971089c3ce07fddf2d78eb95db/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_32b764e207354d085cf45dbccc26127af3bc98e5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_4d7d971d7c5194f6df31f291b7744247ce9328c6/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.13.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ad4d4c5914b7b25e51e66f8e2d1b842c67dd63a9">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.13.1_18836a61dd33e52b65bd07eed923943c3665f967/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_7a87aaf4fdaa21d661abe25cc744840de882356a/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_e4e8e5090aaae7cfa65f7799a3493b94fdc9619a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_316b8472a1f1f67d9195f1ee87e5ca4cc8735b64/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_66bce34411d23c745d8f6709130770dcdc381a80/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.1_33bc16fec851bdac4c3b2ce5b01e8a2f8cffda61/classes.dex" />
+    </item>
+    <item
+        jar="/Users/coneits/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_56cefaf4224b9d3b3ffa40086c925d3c860271aa/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_10bec2124872f1480e13739d26af9f8d3f63b795/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Volumes/Work/Android_Lesgirls/LesGirls-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_cad1f10d079d7075aa1d0ec096bcb38c4371d874/classes.dex" />
+    </item>
+
+</items>

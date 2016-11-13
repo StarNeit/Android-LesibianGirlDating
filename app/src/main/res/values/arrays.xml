@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sexual_type">
+        <item>Lesbian</item>
+        <item>Bisexual</item>
+        <item>Pansexual</item>
+    </string-array>
+    <string-array name="looking">
+        <item>Lesbian</item>
+        <item>Bisexual</item>
+        <item>Friend</item>
+        <item>Either</item>
+    </string-array>
+</resources>

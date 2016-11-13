@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="register_loader" type="id" />
+    <item name="login_loader" type="id" />
+    <item name="profile_loader" type="id" />
+    <item name="avatar_updater" type="id" />
+    <item name="image_uploader" type="id" />
+    <item name="myphoto_loader" type="id" />
+    <item name="myphotodelete_loader" type="id" />
+    <item name="updateProfile_loader" type="id" />
+    <item name="random10_loader" type="id" />
+    <item name="addactivity_loader" type="id" />
+    <item name="getactivity_loader" type="id" />
+    <item name="block_loader" type="id" />
+    <item name="addmessage_loader" type="id" />
+</resources>

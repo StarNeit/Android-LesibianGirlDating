@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/imGlobal"
+            android:icon="@drawable/global"
+            app:itemIconTint="@color/colorPrimary"
+            android:title="Global" />
+        <item
+            android:id="@+id/imMessage"
+            android:icon="@drawable/messages"
+            app:itemIconTint="@color/colorPrimary"
+            android:title="Messages" />
+        <item
+            android:id="@+id/imNotification"
+            android:icon="@drawable/notifications"
+            app:itemIconTint="@color/colorPrimary"
+            android:title="Notification" />
+        <item
+            android:id="@+id/imSetting"
+            android:icon="@drawable/settings"
+            app:itemIconTint="@color/colorPrimary"
+            android:title="Settings" />
+        <item
+            android:id="@+id/imMore"
+            android:icon="@drawable/more"
+            app:itemIconTint="@color/colorPrimary"
+            android:title="More" />
+</menu>

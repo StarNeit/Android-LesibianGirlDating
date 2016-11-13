@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lesgirls.fragments.profile.MainProfileFragment">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/ivRight"
+        android:src="@drawable/right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/big"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_bar_height">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <CheckBox
+                    android:id="@+id/cbLike"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/like"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:button="@null" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rlMessage"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/commet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlDescription"
+        android:layout_above="@id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_bar_height">
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:text="Desctoption"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_profile_description"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlFollow"
+        android:layout_above="@+id/rlDescription"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_bar_height">
+
+        <CheckBox
+            android:background="@drawable/follow"
+            android:id="@+id/ivFollow"
+            android:layout_centerInParent="true"
+            android:button="@null"
+            android:layout_width="90dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlCity"
+        android:layout_above="@+id/rlFollow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_bar_height">
+        <TextView
+            android:id="@+id/tvCity"
+            android:text="Paris"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_profile_all"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNameAndAge"
+        android:layout_above="@+id/rlCity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_bar_height">
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvName"
+                android:text="Angela"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_profile_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvComma"
+                android:text=","
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_profile_all"
+                android:layout_toRightOf="@id/tvName"
+                android:layout_marginLeft="@dimen/tiny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tvAge"
+                android:text="24"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_profile_all"
+                android:layout_toRightOf="@id/tvComma"
+                android:layout_marginLeft="@dimen/tiny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

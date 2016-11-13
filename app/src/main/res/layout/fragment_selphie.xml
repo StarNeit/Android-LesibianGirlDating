@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lesgirls.fragments.splash.SelphieFragment">
+
+    <RelativeLayout
+        android:id="@+id/rlPhotoPanel"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RelativeLayout
+            android:id="@+id/rlTakePhoto"
+            android:background="@drawable/take_photo"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/tiny"
+            android:layout_marginBottom="@dimen/tiny"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_photo_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlChangeCameras"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ivChangeCamers"
+                android:layout_marginTop="@dimen/tiny"
+                android:layout_marginBottom="@dimen/tiny"
+                android:layout_marginLeft="@dimen/small"
+                android:src="@drawable/state_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlFrash"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/ivFlash"
+                android:layout_marginBottom="@dimen/tiny"
+                android:layout_marginTop="@dimen/tiny"
+                android:layout_marginRight="@dimen/small"
+                android:src="@drawable/ic_flash_off"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <SurfaceView
+        android:id="@+id/svSelphie"
+        android:layout_above="@id/rlPhotoPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/ivSelphie"
+        android:layout_above="@id/rlPhotoPanel"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

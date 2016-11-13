@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/rlGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/get_started_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/get_started_bottom"
+        android:layout_marginLeft="@dimen/get_started"
+        android:layout_marginRight="@dimen/get_started"
+        android:background="@drawable/get_started">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/splash_text_bottom">
+        <TextView
+            android:id="@+id/tvAlreadey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_a_member"
+            android:textColor="@color/black_overlay"
+            android:textSize="@dimen/splashTextSize" />
+        <RelativeLayout
+            android:id="@+id/rlLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tiny"
+            android:layout_toRightOf="@id/tvAlreadey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/splashTextSize" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
